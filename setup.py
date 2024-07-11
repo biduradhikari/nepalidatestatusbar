@@ -1,6 +1,6 @@
 from setuptools import setup
 
-APP = ['main.py']  # Replace with your script name
+APP = ['main.py']
 DATA_FILES = []
 OPTIONS = {
     'argv_emulation': True,
