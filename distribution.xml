@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <title>DateStatusBarApp Installer</title>
+    <pkg-ref id="com.bidurs.nepalidate_statusbar"/>
+    <options customize="never" allow-external-scripts="no"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.bidurs.nepalidate_statusbar"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.bidurs.nepalidate_statusbar" visible="false">
+        <pkg-ref id="com.bidurs.nepalidate_statusbar"/>
+    </choice>
+</installer-gui-script>
